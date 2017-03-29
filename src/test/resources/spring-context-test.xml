@@ -14,13 +14,6 @@
     </context:component-scan>
 
 
-  <!--
-        <bean id="dateTimeService"
-              class="net.petrikainulainen.springdata.jpa.common.CurrentTimeDateTimeService"/>
-
-        <bean id="propertyPlaceHolderConfigurer"
-              class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer"/>
-              
-              -->
+ 
     
 </beans>
