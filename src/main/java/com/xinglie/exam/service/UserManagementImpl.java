@@ -17,7 +17,7 @@ class UserManagementImpl implements UserManagement {
 
 	private final UserRepository userRepository;
 
-	@Autowired
+
 	public UserManagementImpl(UserRepository userRepository) {
 		this.userRepository = userRepository;
 

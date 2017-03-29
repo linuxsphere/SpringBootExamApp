@@ -9,16 +9,9 @@
     <import resource="spring-persistence.xml"/>
 
     <context:component-scan base-package="com.xinglie.exam">
-    	<context:exclude-filter type="regex" expression="com\.xinglie\.exam\.endpoint\..*"/>
-    	<context:exclude-filter type="regex" expression="com\.xinglie\.exam\.boot\..*"/>
+
     </context:component-scan>
 
 
-  
-        <bean id="dateTimeService"
-              class="net.petrikainulainen.springdata.jpa.common.CurrentTimeDateTimeService"/>
-
-        <bean id="propertyPlaceHolderConfigurer"
-              class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer"/>
     
 </beans>

@@ -14,8 +14,9 @@ import com.xinglie.exam.service.UserManagement;
 @ContextConfiguration(locations = { "classpath:spring-context-test.xml" })
 public class TestUserPersistence  {
 
+
 	@Autowired
-	UserManagement userManagement ;
+	UserManagement userManagement;
 	
 	@Test
 	public void testUserInsert(){

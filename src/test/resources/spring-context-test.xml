@@ -10,10 +10,9 @@
 
     <context:component-scan base-package="com.xinglie.exam">
     	<context:exclude-filter type="regex" expression="com\.xinglie\.exam\.endpoint\..*"/>
-    	<context:exclude-filter type="regex" expression="com\.xinglie\.exam\.boot\..*"/>
     </context:component-scan>
 
-
+	
  
     
 </beans>

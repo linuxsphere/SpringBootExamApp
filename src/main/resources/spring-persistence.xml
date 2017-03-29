@@ -44,7 +44,7 @@ http://www.springframework.org/schema/tx http://www.springframework.org/schema/t
     <bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
         <property name="dataSource" ref="dataSource"/>
         <property name="jpaVendorAdapter" ref="hibernateJpaVendorAdapter"/>
-        <property name="packagesToScan" value="net.petrikainulainen.springdata.jpa.todo"/>
+        <property name="packagesToScan" value="com.xinglie.exam.domain"/>
         <property name="jpaProperties">
             <props>
                 <!--
@@ -81,5 +81,7 @@ http://www.springframework.org/schema/tx http://www.springframework.org/schema/t
     </bean>
 
 
-    <jpa:repositories base-package="com.xinglie.exam.repository"/>
+
+    <jpa:repositories base-package="com.xinglie.exam.repository" >
+    </jpa:repositories>
 </beans>
